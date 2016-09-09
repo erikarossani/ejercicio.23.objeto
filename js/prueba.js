@@ -18,10 +18,10 @@ window.addEventListener("load", function() {
             this.diHola = function() {
                 var texto;
                 if(this.mayorDeEdad){
-                    texto = "hola, mi nombre es " + this.nombre + " tengo " + this.edad + ", mi sexo " + this.sexo + " y soy mayor de edad.";
+                    texto = "<p>hola, mi nombre es " + this.nombre + " tengo " + this.edad + ", mi sexo " + this.sexo + " y soy mayor de edad.</p>";
                 }
                 else{
-                    texto = "hola, mi nombre es " + this.nombre + " tengo " + this.edad + ", mi sexo " + this.sexo + " y soy menor de edad.";
+                    texto = "<p>hola, mi nombre es " + this.nombre + " tengo " + this.edad + ", mi sexo " + this.sexo + " y soy menor de edad.</p>";
                 }
                     return texto;
             }
